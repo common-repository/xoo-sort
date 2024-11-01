@@ -1,0 +1,9 @@
+		var data = {
+			action: 'xse_trigger',
+			xse_nonce: xse_vars.xsu_nonce,
+			id: event.target.id,
+			val: document.getElementById(event.target.id).checked
+		}
+		$.post(ajaxurl, data, function(response) {
+			
+		});
